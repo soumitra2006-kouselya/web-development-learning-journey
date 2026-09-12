@@ -1,0 +1,13 @@
+<button id="btn" onclick="changeColor()">change color</button>
+<style>
+    .newColor{
+        background-color: red;
+        color: black;
+    }
+</style>
+<script>
+    var btn = document.getElementById("btn")
+    function changeColor(){
+        btn.setAttribute("class", "newColor")
+    }
+</script>

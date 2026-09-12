@@ -1,0 +1,23 @@
+<div>
+    <h1>family</h1>
+</div>
+
+<script>
+    var div = document.querySelector("div")
+    div.append("siddhath")
+    div.append("kousi")
+    div.prepend("jaganath")
+    div.prepend("Rathi")
+    var child1 = document.createElement("h1")
+    child1.textContent = "Yazh"
+    var child2 = document.createElement("h1")
+    child2.textContent = "Soumi"
+    var child3 = document.createElement("h1")
+    child3.textContent = "Abi"
+    var child4 = document.createElement("h1")
+    child4.textContent = "Yashi"
+    div.insertAdjacentElement("beforebegin", child1)
+    div.insertAdjacentElement("afterbegin", child2)
+    div.insertAdjacentElement("beforeend", child3)
+    div.insertAdjacentElement("afterend", child4)
+</script>

@@ -1,0 +1,12 @@
+<input type="number" id="num1">
+<input type="number" id="num2">
+<button onclick="addition()">add</button>
+<p id="result"></p>
+<script>
+    var result = document.getElementById("result")
+
+    function addition(){
+        var sum = Number(document.getElementById("num1").value) + Number(document.getElementById("num2").value)
+        result.textContent = sum
+    }
+</script>
