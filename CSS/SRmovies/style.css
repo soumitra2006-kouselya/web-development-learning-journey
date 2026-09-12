@@ -1,0 +1,73 @@
+.navbar, .aboutus h2, .contactus h3{
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+.navbar h1{
+    display: inline;
+}
+
+li, ol{
+    display: inline;
+}
+
+li{
+    margin-right: 20px;
+}
+
+ol{
+    margin-left: 60%;
+}
+
+.searchbar{
+    text-align: center;
+    padding: 20px;
+}
+
+.searchbar input{
+    border: 2px solid black;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.smallbox{
+    background-color: rgb(219, 189, 152);
+    width: 200px;
+    margin: 20px;
+    padding: 8px;
+    display: inline-block;
+    border: 5px solid black;
+}
+
+.aboutus p, .contactus p{
+    padding: 8px;
+    margin: 0px;
+}
+
+.searchbar, .products, .aboutus, .contactus{
+    background-color: rgb(252, 232, 209);
+    margin: 0px;
+    text-align: center;
+}
+
+.contactus{
+    background-color: rgb(219, 189, 152);
+}
+
+.contactus h4{
+    margin: 0px;
+}
+
+
+
+
+
